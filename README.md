@@ -1,4 +1,4 @@
-# kubeadm-base-install.sh
+# kubeadm-base-install
 Script to install docker, set ip tables, add kubernetes repo and install kubelet/kubeadm/kubectl
 
 ## Description:
@@ -14,3 +14,6 @@ sudo ./kubeadm-install.sh
 
 ## Post install
 You will need to finish the rest on your own by issuing the `kubeadm init` or `kubeadm join` as root to finish the kubernetes setup.  
+
+### Help
+Please further this script to finish everything for both debian and centos based machines.  I would appreciate any help.  
